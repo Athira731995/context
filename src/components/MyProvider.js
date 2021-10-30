@@ -5,7 +5,7 @@ import MyContext from './MyContext'
 export default class MyProvider extends Component {
     constructor(props){
         super(props)
-        this.props={
+        this.state={
     cars: {
         car101: { name: "Honda", price: 500000 },
         car102: { name: "BMW", price: 1500000 },
